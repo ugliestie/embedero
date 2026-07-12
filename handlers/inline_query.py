@@ -42,7 +42,7 @@ async def inline(inline_query: InlineQuery):
 			title='i think thats not a link :<',
 			input_message_content=InputTextMessageContent(
 				message_text=f"owo",
-				link_preview_options=LinkPreviewOptions(show_above_text=True)
+				link_preview_options=LinkPreviewOptions(show_above_text=True),
 				parse_mode="HTML"
 			)
 		)

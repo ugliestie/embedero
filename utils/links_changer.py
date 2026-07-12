@@ -18,7 +18,7 @@ twitter_pattern = re.compile(
 )
 
 instagram_pattern = re.compile(
-    r"(?:(?:https?):\/\/)(?:www\.)?instagram\.com\/(?:(?:((?:reel)|p)\/(\w+))|((stories)\/(\w+)\/\d+))(?:\/\?\S+)"
+    r"(?:(?:https?):\/\/)?(?:www.)?instagram\.com\S*?\/(p|reel)\/(\w{11})\/?"
 )
 
 pinterest_pattern = re.compile(
