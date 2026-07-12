@@ -13,9 +13,11 @@ async def cmd_start(message: Message, command: CommandObject):
 			await message.reply("""
 currently supported:
 
+tiktok
 twitter posts (twitter.com and x.com links)
 instagram posts and stories
 pinterest
+bluesky
                       		""")
 		else:
 			await message.reply("""
